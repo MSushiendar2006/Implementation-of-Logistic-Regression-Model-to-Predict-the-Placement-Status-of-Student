@@ -8,15 +8,20 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm:
-1. Import the required packages and print the present data.
-   
-2. Print the placement data and salary data.
-   
-3. Find the null and duplicate values.
-
-4. Using logistic regression find the predicted values of accuracy, confusion matrices.
-   
-5. Display the results.
+1. Import necessary libraries( For eg:Pandas,Numpy,Sklearn,etc).
+2. Load dataset from 'Placement_Data.csv' using pandas libary.
+3. Create a copy of the dataset.
+4. Drop unnecessary columns.
+5. Check for missing values and duplicates.
+6. Encode categorical variables.
+7. Set features X and target y.
+8. Split data into train and test datasets.
+9. Create Logistic Regression model.
+10. Fit model on training data.
+11. Predict on test data.
+12. Calculate accuracy and generate confusion matrix.
+13. Predict for a specific input.
+14. Print evaluation results.
 
 ## Program:
 ~~~
